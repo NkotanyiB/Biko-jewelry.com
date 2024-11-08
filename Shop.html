@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Store - Shop</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="jewellery website.html">Home</a> 
+        <div class="dropdown">
+            <a href="Our products.html" class="nav-item">Our products</a>
+            <div class="dropdown-content">
+                <a href="Necklace.html">Necklace</a>
+                <a href="Bracelet.html">Bracelet</a>
+                <a href="Earring.html">Earring</a>
+                <a href="Ring.html">Ring</a>
+            </div>
+            </div>   
+        <a href="About.html">About Us</a>
+        <a href="Calculator.html">Contact Us</a>
+        <a href="Shop.html">Shop</a>
+    </nav>
+</header>
+
+<section class="shop container">
+    <h2>Shop Our Collection</h2>
+
+    <!-- Filter Options -->
+    <div class="filters">
+        <label>Category:
+            <select>
+                <option value="all">All</option>
+                <option value="necklaces">Necklaces</option>
+                <option value="bracelets">Bracelets</option>
+                <option value="earrings">Earrings</option>
+                <option value="rings">Rings</option>
+            </select>
+        </label>
+        
+        <label>Material:
+            <select>
+                <option value="all">All</option>
+                <option value="gold">Gold</option>
+                <option value="silver">Silver</option>
+                <option value="platinum">Platinum</option>
+            </select>
+        </label>
+
+        <label>Price Range:
+            <select>
+                <option value="all">All</option>
+                <option value="under50">Under $50</option>
+                <option value="50to100">$50 - $100</option>
+                <option value="100to200">$100 - $200</option>
+                <option value="above200">Above $200</option>
+            </select>
+        </label>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid">
+        <!-- Sample Product Item -->
+        <div class="product">
+            <img src="necklace.jpg" alt="Elegant Necklace" class="featured-necklace">
+            <h3>Elegant Necklace</h3>
+            <p>$120.00</p>
+            <button>View Details</button>
+        </div>
+        <div class="product">
+            <img src="brace.jpg" alt="Classic Bracelet" class="featured-bracelet">
+            <h3>Classic Bracelet</h3>
+            <p>$80.00</p>
+            <button>View Details</button>
+        </div>
+        <!-- Add more products as needed -->
+    </div>
+</section>
+<footer>
+    <div class="footer-container">
+        <!-- About Us Section -->
+        <div class="footer-section about-us">
+            <h3>About Us</h3>
+            <p>Learn more about our journey, values, and dedication to providing quality education and services.</p>
+        </div>
+        
+       
+
+
+        <div class="footer-section contact-info">
+            <h3>Contact Us</h3>
+            <p>Email: support@kigalihillside.com</p>
+            <p>Phone: +250799375874</p>
+            <p>Address: 34 Main St, Kigali City</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-section social-media">
+            <h3>Follow Us</h3>
+            <a href="#"><p>Facebook</p></a>
+            <a href="#"><p>Twitter/X</p></a>
+            <a href="#"><p>Instagram</p></a>
+            <a href="#"><p>LinkedIn</p></a>
+        </div>
+
+        <!-- Newsletter Subscription -->
+        <div class="footer-section newsletter">
+            <h3>Subscribe us</h3>
+            <form action="#">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Kigali Hillside Academy. All rights reserved.</p>
+        <p>Terms | Privacy Policy | Site Map</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
